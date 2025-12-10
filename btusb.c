@@ -84,6 +84,8 @@ static const struct usb_device_id btusb_table[] = {
 
 	/* MediaTek MT76x0E */
 	{ USB_DEVICE(0x0e8d, 0x763f) },
+	{ USB_DEVICE_AND_INTERFACE_INFO(0x0489, 0xe080, 0xe0, 0x01, 0x01) },
+	{ USB_DEVICE_AND_INTERFACE_INFO(0x0489, 0xe080, 0xff, 0xff, 0xff) },
 
 	/* Broadcom SoftSailing reporting vendor specific */
 	{ USB_DEVICE(0x0a5c, 0x21e1) },
